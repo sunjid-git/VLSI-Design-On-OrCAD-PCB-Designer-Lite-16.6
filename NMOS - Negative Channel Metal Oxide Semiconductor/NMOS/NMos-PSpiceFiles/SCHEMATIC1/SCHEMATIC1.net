@@ -1,0 +1,5 @@
+* source NMOS
+M_M1         N00177 N00188 N00195 N00195 MbreakN           
+V_V1         N00177 0 0Vdc
+V_V2         N00188 0 0Vdc
+V_V3         N00195 0 0Vdc
