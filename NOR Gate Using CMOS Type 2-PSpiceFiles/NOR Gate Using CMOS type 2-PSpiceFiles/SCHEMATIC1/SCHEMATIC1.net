@@ -1,0 +1,10 @@
+* source NOR GATE USING CMOS TYPE 2
+M_M1         N01720 N01806 N01758 N01758 MbreakP           
+M_M4         N01764 N01818 0 0 MbreakN           
+V_V1         N01720 0 5Vdc
+M_M2         N01758 N01818 N01764 N01764 MbreakP           
+V_V2         N01806 0  
++PULSE 0 0 0 3 0 0 0
+V_V3         N01818 0  
++PULSE 5 5 0 0 0 0 0
+M_M3         N01764 N01806 0 0 MbreakN           
