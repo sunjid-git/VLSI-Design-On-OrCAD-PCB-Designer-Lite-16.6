@@ -1,0 +1,10 @@
+* source NAND
+M_M1         N00126 N00257 N00122 N00122 MbreakP           
+M_M2         N00126 N00280 N00122 N00122 MbreakP           
+M_M3         N00126 N00257 N00140 N00140 MbreakN           
+M_M4         N00140 N00280 0 0 MbreakN           
+V_V1         N00122 0 5Vdc
+V_V2         N00257 0  
++PULSE 4.8 4.8 0 0 0 0 0
+V_V3         N00280 0  
++PULSE 4.5 4.5 0 0 0 0 0
